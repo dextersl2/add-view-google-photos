@@ -13,11 +13,6 @@ import DKImagePickerController
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view
-    }
-   
     @IBAction func textBoxInput(_ sender: Any) {
     }
     
@@ -39,6 +34,15 @@ class ViewController: UIViewController {
     }
     
     
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view
+    }
+    
+    
+   
+   
     
     
     

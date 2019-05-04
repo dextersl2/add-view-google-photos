@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		63C4AA8438F690872935F21E /* Pods_InProcessPhotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B5C83CC4F2CCD2E5F31E5D /* Pods_InProcessPhotos.framework */; };
+		C91C6895227DF14800424819 /* SearchedPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91C6894227DF14800424819 /* SearchedPhotosView.swift */; };
 		C9F32B3E2275E39400EB6E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F32B3D2275E39400EB6E12 /* AppDelegate.swift */; };
 		C9F32B402275E39400EB6E12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F32B3F2275E39400EB6E12 /* ViewController.swift */; };
 		C9F32B432275E39400EB6E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F32B412275E39400EB6E12 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		58B5C83CC4F2CCD2E5F31E5D /* Pods_InProcessPhotos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InProcessPhotos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFA515817C4461617AE0611 /* Pods-InProcessPhotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InProcessPhotos.release.xcconfig"; path = "Target Support Files/Pods-InProcessPhotos/Pods-InProcessPhotos.release.xcconfig"; sourceTree = "<group>"; };
 		A105EF18E332073521243548 /* Pods-InProcessPhotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InProcessPhotos.debug.xcconfig"; path = "Target Support Files/Pods-InProcessPhotos/Pods-InProcessPhotos.debug.xcconfig"; sourceTree = "<group>"; };
+		C91C6894227DF14800424819 /* SearchedPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedPhotosView.swift; sourceTree = "<group>"; };
 		C9F32B3A2275E39400EB6E12 /* InProcessPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InProcessPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F32B3D2275E39400EB6E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9F32B3F2275E39400EB6E12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				C9F32B442275E39600EB6E12 /* Assets.xcassets */,
 				C9F32B462275E39600EB6E12 /* LaunchScreen.storyboard */,
 				C9F32B492275E39600EB6E12 /* Info.plist */,
+				C91C6894227DF14800424819 /* SearchedPhotosView.swift */,
 			);
 			path = InProcessPhotos;
 			sourceTree = "<group>";
@@ -85,7 +88,6 @@
 				A105EF18E332073521243548 /* Pods-InProcessPhotos.debug.xcconfig */,
 				8BFA515817C4461617AE0611 /* Pods-InProcessPhotos.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -220,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F32B402275E39400EB6E12 /* ViewController.swift in Sources */,
+				C91C6895227DF14800424819 /* SearchedPhotosView.swift in Sources */,
 				C9F32B3E2275E39400EB6E12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
